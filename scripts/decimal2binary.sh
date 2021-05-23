@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 for ((i = 32; i >= 0; i--)); do
-	r=$((2 ** i))		# multiplying with mutiple of 2 as digits increase
+	r=$((2 ** i))		# Storing the number in multiple of two in Probability Array
 	Probablity+=($r)	
 done
 
